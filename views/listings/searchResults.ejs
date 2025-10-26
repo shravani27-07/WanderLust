@@ -1,0 +1,38 @@
+<% layout("/layouts/boilerplate") %>
+
+<div class="container mt-4">
+  <h3 class="mb-4 text-center">
+    Search Results for "<%= query %>"
+  </h3>
+
+  <% if (results.length === 0) { %>
+    <div class="text-center text-muted mt-5">
+      <i class="fa-solid fa-circle-exclamation fa-2x mb-3"></i>
+      <p>No listings found matching your search.</p>
+      <a href="/listings" class="btn btn-outline-primary mt-2">Back to Explore</a>
+    </div>
+  <% } else { %>
+    <div class="row">
+      <% results.forEach(listing => { %>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm border-0">
+            <% if (listing.image && listing.image.url) { %>
+              <img src="<%= listing.image.url %>" class="card-img-top" alt="Listing image">
+            <% } else { %>
+              <img src="/images/default.jpg" class="card-img-top" alt="Default image">
+            <% } %>
+            <div class="card-body">
+              <h5 class="card-title mb-1"><%= listing.title %></h5>
+              <p class="card-text text-muted mb-2"><%= listing.location %></p>
+              <p class="card-text"><strong>₹<%= listing.price %></strong> / night</p>
+              <a href="/listings/<%= listing._id %>" class="btn btn-primary btn-sm rounded-pill">
+                View Details
+              </a>
+            </div>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+  <% } %>
+</div>
+
