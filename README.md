@@ -62,14 +62,16 @@ It allows users to **browse, book, and manage property listings**, providing a s
 git clone https://github.com/shravani27-07/WanderLust.git
 cd WanderLust
 
-# Backend
+1. Backend
 cd server
 npm install
 
-# Frontend
+2. Frontend
 cd ../client
 npm install
 
+3. Setup environment variables
+Create a .env file in the server folder:
 MONGO_URI=<your-mongodb-uri>
 PORT=<server-port>
 JWT_SECRET=<your-secret-key>
