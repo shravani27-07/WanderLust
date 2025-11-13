@@ -58,7 +58,74 @@ It allows users to **browse, book, and manage property listings**, providing a s
 ## 🚀 Getting Started
 
 ### **1. Clone the repository**
-```bash
-git clone https://github.com/shravani27-07/WanderLust.git
-cd WanderLust
+       ```bash
+    git clone https://github.com/shravani27-07/WanderLust.git
+    cd WanderLust
+
+2. Install dependencies
+   Backend
+ - cd server
+   npm install
+
+  Frontend
+ - cd ../client
+   npm install
+
+3. Setup environment variables
+
+Create a .env file in the server folder:
+MONGO_URI=<your-mongodb-uri>
+PORT=<server-port>
+JWT_SECRET=<your-secret-key>
+CLOUDINARY_CLOUD_NAME=<cloudinary-name>
+CLOUDINARY_API_KEY=<cloudinary-api-key>
+CLOUDINARY_API_SECRET=<cloudinary-secret>
+MAPBOX_TOKEN=<your-mapbox-token>
+
+4. Run the application
+   Backend
+ - cd server
+   npm start
+
+   Frontend
+ - cd ../client
+   npm start
+   
+5. Open http://localhost:8080
+   to view the app locally.
+
+📂 Project Structure
+   /Wanderlust
+│
+├── /client           # React frontend (or EJS in MEEN version)
+│   ├── /components   # Reusable UI components
+│   ├── /pages        # Pages like Home, StayDetails
+│   ├── /assets       # Images, icons
+│   ├── App.js
+│   └── index.js
+│
+├── /server           # Node.js + Express backend
+│   ├── /models       # MongoDB models (User, Stay, Booking)
+│   ├── /routes       # API routes
+│   ├── /controllers  # Route logic
+│   ├── server.js     # Express server entry
+│   └── config.js     # MongoDB connection
+│
+├── .gitignore        # Ignore node_modules, .env, etc.
+├── package.json      # Dependencies
+└── README.md         # Project documentation
+
+
+👩‍💻 Author:
+Shravani Sarode
+MERN Stack Developer
+GitHub: https://github.com/shravani27-07
+
+
+   
+
+   
+   
+
+
 
