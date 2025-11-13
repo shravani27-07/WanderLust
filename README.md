@@ -62,4 +62,3 @@ It allows users to **browse, book, and manage property listings**, providing a s
 git clone https://github.com/shravani27-07/WanderLust.git
 cd WanderLust
 
-Run `npm install` to install dependencies.
