@@ -1,6 +1,6 @@
 # Wanderlust 🏡✈️
 
-Wanderlust is a **full-stack Airbnb-style web application** built using the **MERN stack** (MongoDB, Express.js, React, Node.js) or optionally the MEEN stack (with EJS templating).  
+Wanderlust is a **full-stack Airbnb-style web application** built using the **MERN stack** (MongoDB, Express.js, React, Node.js) or (with EJS templating).  
 It allows users to **browse, book, and manage property listings**, providing a seamless, interactive, and responsive experience, similar to Airbnb.  
 
 ---
