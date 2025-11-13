@@ -70,3 +70,10 @@ npm install
 cd ../client
 npm install
 
+MONGO_URI=<your-mongodb-uri>
+PORT=<server-port>
+JWT_SECRET=<your-secret-key>
+CLOUDINARY_CLOUD_NAME=<cloudinary-name>
+CLOUDINARY_API_KEY=<cloudinary-api-key>
+CLOUDINARY_API_SECRET=<cloudinary-secret>
+MAPBOX_TOKEN=<your-mapbox-token>
