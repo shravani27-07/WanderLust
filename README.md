@@ -62,32 +62,4 @@ It allows users to **browse, book, and manage property listings**, providing a s
 git clone https://github.com/shravani27-07/WanderLust.git
 cd WanderLust
 
-1. Backend
-cd server
-npm install
-
-2. Frontend
-cd ../client
-npm install
-
-3. Setup environment variables
-Create a .env file in the server folder:
-
-MONGO_URI=<your-mongodb-uri>
-PORT=<server-port>
-JWT_SECRET=<your-secret-key>
-CLOUDINARY_CLOUD_NAME=<cloudinary-name>
-CLOUDINARY_API_KEY=<cloudinary-api-key>
-CLOUDINARY_API_SECRET=<cloudinary-secret>
-MAPBOX_TOKEN=<your-mapbox-token>
-
-4. Run the application
-# Backend
-cd server
-npm start
-
-# Frontend
-cd ../client
-npm start
-Open http://localhost:8080
-to view the app locally.
+Run `npm install` to install dependencies.
