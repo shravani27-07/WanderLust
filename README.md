@@ -90,4 +90,4 @@ npm start
 cd ../client
 npm start
 Open http://localhost:8080
- to view the app locally.
+to view the app locally.
