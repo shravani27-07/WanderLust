@@ -61,3 +61,12 @@ It allows users to **browse, book, and manage property listings**, providing a s
 ```bash
 git clone https://github.com/shravani27-07/WanderLust.git
 cd WanderLust
+
+# Backend
+cd server
+npm install
+
+# Frontend
+cd ../client
+npm install
+
