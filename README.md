@@ -80,3 +80,14 @@ CLOUDINARY_CLOUD_NAME=<cloudinary-name>
 CLOUDINARY_API_KEY=<cloudinary-api-key>
 CLOUDINARY_API_SECRET=<cloudinary-secret>
 MAPBOX_TOKEN=<your-mapbox-token>
+
+4. Run the application
+# Backend
+cd server
+npm start
+
+# Frontend
+cd ../client
+npm start
+Open http://localhost:8080
+ to view the app locally.
