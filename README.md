@@ -62,17 +62,17 @@ It allows users to **browse, book, and manage property listings**, providing a s
     git clone https://github.com/shravani27-07/WanderLust.git
     cd WanderLust
 
-2. Install dependencies
+## 2. Install dependencies
 
-Backend:
+## Backend:
 - cd server
 - npm install
 
-Frontend:
+## Frontend:
 - cd ../client
 - npm install
 
-3. Setup environment variables
+## 3. Setup environment variables
 
 Create a `.env` file in the `server` folder and add:
 
@@ -87,19 +87,19 @@ CLOUDINARY_API_SECRET=<cloudinary-secret>
 MAPBOX_TOKEN=<your-mapbox-token>
 
 
-4. Run the application
-Backend:
+## 4. Run the application
+## Backend:
  - cd server
  - npm start
 
-Frontend:
+## Frontend:
  - cd ../client
  - npm start
    
-5. Open http://localhost:8080
+## 5. Open http://localhost:8080
    to view the app locally.
 
-📂 Project Structure
+## 📂 Project Structure
    /Wanderlust
 │
 ├── /client           # React frontend (or EJS in MEEN version)
@@ -121,7 +121,7 @@ Frontend:
 └── README.md         # Project documentation
 
 
-👩‍💻 Author:
+## 👩‍💻 Author:
 Shravani Sarode
 MERN Stack Developer
 GitHub: https://github.com/shravani27-07
