@@ -100,8 +100,8 @@ MAPBOX_TOKEN=<your-mapbox-token>
    to view the app locally.
 
 ## 📂 Project Structure
-   /Wanderlust
 ```
+   /Wanderlust
 │
 ├── /client           # React frontend (or EJS in MEEN version)
 │   ├── /components   # Reusable UI components
