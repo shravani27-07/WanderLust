@@ -122,9 +122,9 @@ MAPBOX_TOKEN=<your-mapbox-token>
 
 
 ## 👩‍💻 Author:
-Shravani Sarode
-MERN Stack Developer
-GitHub: https://github.com/shravani27-07
+ - Shravani Sarode
+ - MERN Stack Developer
+ - GitHub: https://github.com/shravani27-07
 
 
    
