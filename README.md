@@ -85,11 +85,11 @@ MAPBOX_TOKEN=<your-mapbox-token>
 4. Run the application
    Backend
  - cd server
-   npm start
+ - npm start
 
    Frontend
  - cd ../client
-   npm start
+ - npm start
    
 5. Open http://localhost:8080
    to view the app locally.
