@@ -1,4 +1,4 @@
-# Wanderlust 🏡️🛩️
+# Wanderlust 🏡️🛫
 
 *Find your perfect stay, anytime, anywhere!*
 
