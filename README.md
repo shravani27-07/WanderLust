@@ -63,11 +63,11 @@ It allows users to **browse, book, and manage property listings**, providing a s
     cd WanderLust
 
 2. Install dependencies
-   Backend
+   #Backend
  - cd server
  - npm install
 
-  Frontend
+  #Frontend
  - cd ../client
  - npm install
 
@@ -83,11 +83,11 @@ CLOUDINARY_API_SECRET=<cloudinary-secret>
 MAPBOX_TOKEN=<your-mapbox-token>
 
 4. Run the application
-   Backend
+   #Backend
  - cd server
  - npm start
 
-   Frontend
+   #Frontend
  - cd ../client
  - npm start
    
