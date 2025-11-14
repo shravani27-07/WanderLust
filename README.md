@@ -63,13 +63,14 @@ It allows users to **browse, book, and manage property listings**, providing a s
     cd WanderLust
 
 2. Install dependencies
-   #Backend
- - cd server
- - npm install
 
-  #Frontend
- - cd ../client
- - npm install
+### Backend
+- cd server
+- npm install
+
+### Frontend
+- cd ../client
+- npm install
 
 3. Setup environment variables
 
