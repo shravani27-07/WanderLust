@@ -65,11 +65,11 @@ It allows users to **browse, book, and manage property listings**, providing a s
 2. Install dependencies
    Backend
  - cd server
-   npm install
+ - npm install
 
   Frontend
  - cd ../client
-   npm install
+ - npm install
 
 3. Setup environment variables
 
