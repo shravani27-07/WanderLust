@@ -64,7 +64,7 @@ It allows users to **browse, book, and manage property listings**, providing a s
 
 2. Install dependencies
 
-  Backend:
+ = Backend:
 - cd server
 - npm install
 
