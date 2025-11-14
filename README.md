@@ -64,14 +64,13 @@ It allows users to **browse, book, and manage property listings**, providing a s
 
 2. Install dependencies
 
-### Backend
+**Backend**
 - cd server
 - npm install
 
-### Frontend
+**Frontend**
 - cd ../client
 - npm install
-
 3. Setup environment variables
 
 Create a .env file in the server folder:
