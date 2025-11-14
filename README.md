@@ -101,6 +101,7 @@ MAPBOX_TOKEN=<your-mapbox-token>
 
 ## 📂 Project Structure
    /Wanderlust
+```
 │
 ├── /client           # React frontend (or EJS in MEEN version)
 │   ├── /components   # Reusable UI components
@@ -119,7 +120,7 @@ MAPBOX_TOKEN=<your-mapbox-token>
 ├── .gitignore        # Ignore node_modules, .env, etc.
 ├── package.json      # Dependencies
 └── README.md         # Project documentation
-
+```
 
 ## 👩‍💻 Author:
  - Shravani Sarode
