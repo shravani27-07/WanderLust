@@ -58,7 +58,6 @@ It allows users to **browse, book, and manage property listings**, providing a s
 ## 🚀 Getting Started
 
 ### **1. Clone the repository**
-       ```bash
     git clone https://github.com/shravani27-07/WanderLust.git
     cd WanderLust
 
@@ -101,7 +100,7 @@ MAPBOX_TOKEN=<your-mapbox-token>
 
 ## 📂 Project Structure
 ```
-   /Wanderlust
+/Wanderlust
 │
 ├── /client           # React frontend (or EJS in MEEN version)
 │   ├── /components   # Reusable UI components
