@@ -59,8 +59,8 @@ It allows users to **browse, book, and manage property listings**, providing a s
 
 ### **1. Clone the repository**
     git clone https://github.com/shravani27-07/WanderLust.git
-    cd WanderLust
 
+cd WanderLust
 ## 2. Install dependencies
 
 ## Backend:
